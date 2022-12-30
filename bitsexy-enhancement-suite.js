@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bitsexy Torrent Download Links to RuTorrent
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  Making bitsexy better
 // @author       You
 // @match        https://bitsexy.org/*
