@@ -295,6 +295,7 @@ getSettings();
                     } else {
                         response.context.target.innerHTML = "";
                         response.context.target.prepend(String.fromCodePoint("0x274C"));
+                        notify_error({ message: `Unable to add torrent, Response: ${response.status}: ${response.statusText}`});
                     }
                 },
                 onerror: function(response) {
